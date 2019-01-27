@@ -25,6 +25,8 @@
 > npm update  
 > cp config/config.example.json config/config.json  
 > edit config/config.json  
+
+
   "development": {  
     "username": "xxxxxxxxx",  
     "password": "xxxxxxxxx",   
@@ -32,6 +34,8 @@
     "host": "xxxxxxxxxxx",  
     "dialect": "mysql"  
   },  
+
+  
 > node ./node_modules/sequelize-auto-migrations/bin/runmigration.js  
 > npm start  
 > ready to go!  
