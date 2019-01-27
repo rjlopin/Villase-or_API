@@ -25,6 +25,8 @@ router.post('/nota', NotaRequest.store, NotaController.Store );
 /* Vincular assignatures */
 router.post('/vincular', AlumneRequest.storeAssignatua, AlumneController.storeAssignatura);
 
+/*
 expressListRoutes({ prefix: '/api/v1' }, 'API:', router );
+*/
 
 module.exports = router;
