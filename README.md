@@ -1,4 +1,19 @@
-## Deploy
+
+# Routes API
+    GET      /api/v1/alumnes
+    GET      /api/v1/alumne/:id
+    POST     /api/v1/alumne
+    PUT      /api/v1/alumne/:id
+    DELETE   /api/v1/alumne/:id
+    GET      /api/v1/assignatures
+    GET      /api/v1/assignatura/:id
+    POST     /api/v1/assignatura
+    PUT      /api/v1/assignatura/:id
+    DELETE   /api/v1/assignatura/:id
+    POST     /api/v1/nota
+    POST     /api/v1/vincular
+
+# Deploy
 ### Install
     yum update
     yum install mysql-server
@@ -34,7 +49,6 @@
     "dialect": "mysql"  
     },  
 
-
 > node ./node_modules/sequelize-auto-migrations/bin/runmigration.js  
 > npm start  
 > ready to go!  
@@ -45,7 +59,7 @@
 
 
 
-## Altres notes :: DEV ::
+# Altres notes :: DEV ::
 ### Per si ens carreguem la base de dades...
 > node node_modules/.bin/sequelize db:drop  
 > node ./node_modules/.bin/sequelize db:create  
