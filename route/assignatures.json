@@ -1,0 +1,10 @@
+[
+  {
+    "nom": "Learn NPM",
+    "professor": "Manuel",
+  },
+  {
+    "nom": "Learn GIT",
+    "professor": "Pepe",
+  }
+]
